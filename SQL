@@ -47,9 +47,9 @@ created_at datetime
 DML%%%%
 
 insert into countries value ( '1346275843','Afnan','rafha');
-insert into users value ( '1346275543','afnan marzouq', 'Afnan@hotmail.com','f','25-2-1999','17-4-2022','1346275843');
-insert into orders value ('1234567684','1346275543','finish','17-4-2022');
-insert into products value ('1357348769','afnan',10,'voild','17-4-2022');
+insert into users value ( '1346275543','afnan marzouq', 'Afnan@hotmail.com','f','25-02-1999','17-04-2022','1346275843');
+insert into orders value ('1234567684','1346275543','finish','17-04-2022');
+insert into products value ('1357348769','afnan',10,'voild','17-04-2022');
 insert into order_products value ('1234567684','1357348769',10);
 
 
