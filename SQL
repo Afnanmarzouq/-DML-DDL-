@@ -31,6 +31,7 @@ create table order_products (
 order_id int (10) ,
 product_id int (10),
 quantity int (10) default 0,
+constraint PK_order primary key ( order_id , product_id),
 foreign key (order_id ) references orders (id),
 foreign key (product_id) references products (id)
 );
